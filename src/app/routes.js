@@ -1,12 +1,15 @@
-import { BrowserRouter, Router , Route } from "react-router-dom";
+import { BrowserRouter, Routes , Route } from "react-router-dom";
+import Home from './pages/Home'
+import Cadastro from "./pages/Cadastro";
 
-export default function RouterApp(){
+
+export default function RoutesApp(){
     return(
         <BrowserRouter>
-            <Router>
-                <Route path="/home" element={ <Home /> }/>
-
-            </Router>
+            <Routes> 
+                <Route path="/" element={ <Home /> }/>
+                <Route path="/cadastro" element={ <Cadastro /> }/>
+            </Routes>
         </BrowserRouter>
     )
 }

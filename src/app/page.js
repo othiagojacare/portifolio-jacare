@@ -1,17 +1,10 @@
-import Header from './components/Header'
-import Banner from './pages/Banner'
-import Habilidades from './pages/Habilidades'
-import Projetos from './pages/Projetos'
+'use client'
 import './global.css'
-import { Link } from 'react-router-dom'
+import { BrowserRouter, Link } from 'react-router-dom'
+import RoutesApp from './routes'
 
-export default function Home() {
+export default function App() {
   return (
-      <div>
-       <Header />
-       <Banner />
-       <Habilidades/>
-       <Projetos />
-      </div>
+    <RoutesApp/>
   );
 }

@@ -12,6 +12,7 @@ export default function Header(){
                     <li><a href='#'>Skills</a></li>
                     <li><a href='#'>Projetos</a></li>
                     <li><a href='#'>Contato</a></li>
+                    <Link to='/cadastro'>Cadastro</Link>
                 </ul>
             </nav>
         </header>
