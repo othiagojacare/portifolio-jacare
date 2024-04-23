@@ -1,15 +1,13 @@
 import Header from '@/app/components/Header'
 import Banner from '../Banner'
-import Habilidades from '../Habilidades'
-import Projetos from '../Projetos'
+import  Sobre  from '../Sobre'
 
 export default function Home(){
     return(
         <div>
             <Header />
             <Banner />
-            <Habilidades />
-            <Projetos/>
+            <Sobre />
         </div>
     )
 }

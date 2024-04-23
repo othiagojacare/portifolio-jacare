@@ -1,0 +1,46 @@
+#habilidadesferramentas{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 80px;
+}
+
+.subtitulo{
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.sub-subtitulo{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+}
+
+.texto{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+}
+
+#ferramentas{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 80px;
+}
+
+.texto{
+    width: 500px;
+}
+
+#sobre{
+    display: flex;
+}
+
+#sobre-mim{
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+}
+
+#tt{
+    width: 50vw;
+}
