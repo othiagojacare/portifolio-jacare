@@ -22,9 +22,15 @@
 
 #ferramentas{
     display: flex;
+    gap: 100px;
     justify-content: space-between;
     width: 300px;
-    margin-top: 80px;
+    margin-top: 10px;
+    margin-right: 400px;
+}
+
+#ferramentas a{
+    width: 30px;
 }
 
 .texto{

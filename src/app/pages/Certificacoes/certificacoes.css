@@ -1,0 +1,11 @@
+#certificacoes{
+    width: 99vw;
+}
+
+#titulo-certificacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 500;
+}

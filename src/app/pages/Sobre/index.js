@@ -1,4 +1,8 @@
 import './sobre.css'
+import IconReact from '@/app/components/icons/react'
+import IconJs from '@/app/components/icons/javascript'
+import IconHtml5 from '@/app/components/icons/html5'
+import IconCss3 from '@/app/components/icons/css3'
 
 export default function Sobre(){
     return(
@@ -7,18 +11,18 @@ export default function Sobre(){
                 <div>
                     <h2 className='subtitulo'>Sobre</h2>
                     <h3 className='sub-subtitulo'>Minhas ferramentas e habilidades</h3>
-                    <p className='texto'>Essaa sao as principais ferramentas e habilidades que eu trabalho</p>
+                    <p className='texto'>Essas sao as principais ferramentas e habilidades que eu trabalho</p>
                 </div>
                 <div id='ferramentas'>
-                    <p>JS</p>
-                    <p>REACT</p>
-                    <p>HTML</p>
-                    <p>CSS</p>
+                    <a>{<IconReact/>}</a>
+                    <a>{<IconJs />}</a>
+                    <a>{<IconHtml5/>}</a>
+                    <a>{<IconCss3 />}</a>
                 </div>
             </div>
             <div id='sobre'>
                 <div id='tt'>
-                    
+                    1
                 </div>
                 <div id='sobre-mim'>
                     <div>
