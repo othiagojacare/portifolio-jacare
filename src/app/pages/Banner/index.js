@@ -1,8 +1,5 @@
 'use client'
 import './banner.css' 
-import js from '@/app/assets/js.png'
-
-console.log(js)
 
 export default function Banner(){
 

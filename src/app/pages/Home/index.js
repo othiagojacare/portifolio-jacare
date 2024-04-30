@@ -1,8 +1,10 @@
 import Header from '@/app/components/Header'
 import Banner from '../Banner'
 import  Sobre  from '../Sobre'
-import Contato from '../Contato'
+import Redes from '../Redes'
 import Certificacoes from '../Certificacoes'
+import Projetos from '../Projetos'
+import Contato from '../Contato'
 
 export default function Home(){
     return(
@@ -10,8 +12,10 @@ export default function Home(){
             <Header />
             <Banner />
             <Sobre />
-            <Contato />
+            <Redes />
             <Certificacoes />
+            <Projetos />
+            <Contato />
         </div>
     )
 }
