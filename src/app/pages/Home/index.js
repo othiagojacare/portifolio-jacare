@@ -5,6 +5,7 @@ import Redes from '../Redes'
 import Certificacoes from '../Certificacoes'
 import Projetos from '../Projetos'
 import Contato from '../Contato'
+import Rodape from '../Rodape'
 
 export default function Home(){
     return(
@@ -16,6 +17,7 @@ export default function Home(){
             <Certificacoes />
             <Projetos />
             <Contato />
+            <Rodape />
         </div>
     )
 }
